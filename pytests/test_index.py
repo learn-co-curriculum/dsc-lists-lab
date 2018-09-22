@@ -1,17 +1,28 @@
 # importing testing framwork
 import pytests
-# library used to check working virtual environment
-import importlib
 
 # importing objects from the jupyter notebook here
-from ipynb.fs.full.index import # variable names go here
+from ipynb.fs.full.index import italy, mexico, kindof_neighbors, countries, unique_countries, num_of_repeats
 
 # format for writing tests
 # all functions that are to be run by test suite *must* be prepended with test_
-def test_name_of_test_here():
-    assert True, "AssertionError will *not* raise and this message will not show"
-    assert False, "AssertionError will raise and output this message in the trace"
+def test_italy():
+    assert italy == 'Italy'
 
-# tests to ensure correct environment is loaded
-def test_conda_environment_activated():
-    assert importlib.util.find_spec("obscure"), "It looks like you didn't 'conda activate learn-env' - try that then run the test again!"
+def test_mexico():
+    assert mexico == 'Mexico'
+
+def test_kindof_neighbors():
+    assert kindof_neighbors == ['USA', 'Argentina', 'Mexico', 'USA']
+
+def test_malta_presence():
+    assert 'Malta' in countries
+
+def test_new_mexico_presence():
+    assert 'New Mexico' not in countries
+
+def test_unique_countries():
+    assert sorted(['Argentina', 'Canada', 'Croatia', 'Finland', 'Italy', 'Malta', 'Mexico', 'Morocco', 'South Korea', 'USA']) == sorted(unique_countries)
+
+def test_num_repeats():
+    assert num_of_repeats == 3
