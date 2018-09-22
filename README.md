@@ -117,24 +117,6 @@ Finally, let's remove Thailand from the list.  No good reason, we're acting on w
 
 
 ```python
-countries = ['Croatia',
- 'USA',
- 'Argentina',
- 'Mexico',
- 'USA',
- 'Morocco',
- 'USA',
- 'Finland',
- 'Argentina',
- 'Italy',
- 'Canada',
- 'South Korea', 
- 'Malta', 
- 'Thailand']
-```
-
-
-```python
 countries.pop() # 'Thailand'
 ```
 
