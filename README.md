@@ -5,6 +5,7 @@
 Now that we have a sense of how to read from a list and alter a list in Python, let's put this knowledge to use. 
 
 ## Objectives
+You will be able to:
 * Understand and use Lists
 
 ## Instructions
@@ -152,4 +153,4 @@ num_of_repeats # 3
 
 ### Summary
 
-In this lesson, we had some practice with working with lists in Python.  We saw how to add and remove elements from a list, as well as select specific elements.  Finally, we saw how to use a different data structure to calculate the number of unique elements in the list.
+In this lesson, we got some practice with working with lists in Python.  We saw how to add and remove elements from a list, as well as select specific elements.  Finally, we saw how to use a different data structure to calculate the number of unique elements in the list.
