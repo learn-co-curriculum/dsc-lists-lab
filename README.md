@@ -40,7 +40,7 @@ countries = ['Croatia',
 
 The list of countries associated with each city has been assigned to the variable `countries`.  Now we will work with reading and manipulating this list.
 
-### Accessing elements from lists
+## Accessing elements from lists
 
 First, set the variable `italy` to be equal to the third to last element from `countries`.  
 >**Note:** If you see an **error** stating that `countries` is undefined, it means you must press shift+enter in the second gray box where `countries` variable is assigned.
@@ -102,7 +102,7 @@ kindof_neighbors
 
 
 
-### Changing Elements
+## Changing Elements
 
 Ok, now let's add a couple of countries onto this list.  At the end of the list, add the country 'Malta'.
 
@@ -203,7 +203,7 @@ print(countries)
     ['Croatia', 'USA', 'Argentina', 'Mexico', 'USA', 'Morocco', 'USA', 'Finland', 'Argentina', 'Italy', 'Canada', 'South Korea', 'Malta']
 
 
-### Exploring Lists with Methods
+## Exploring Lists with Methods
 
 Ok, now we notice that some countries are mentioned more than once.  Let's see how many repeat countries are on this list.  
 
@@ -251,6 +251,6 @@ num_of_repeats # 3
 
 
 
-### Summary
+## Summary
 
 In this lesson, we had some practice with working with lists in Python.  We saw how to add and remove elements from a list, as well as select specific elements.  Finally, we saw how to use a different data structure to calculate the number of unique elements in the list.
