@@ -39,7 +39,7 @@ countries = ['Croatia',
 
 > Run the code in the cell above by pressing shift + enter.
 
-The list of countries associated with each city has been assigned to the variable `countries`.  Now we will work with reading and manipulating this list.
+The list of countries associated with each city has been assigned to the variable `countries`.  Now we will work with this list.
 
 ## Accessing elements from lists
 
@@ -52,7 +52,7 @@ italy = None # 'Italy'
 italy
 ```
 
-> We assign the varible `italy` equal to `None`, but you should change the word `None` to code that uses the `countries` list to assign `italy` to `'Italy'`.  We wrote the variable `italy` a second time, so that you can see what it equals when you run the code block.  Currently, nothing is displayed below as it equals `None`, but when it's correct it will match the string which is commented out, `'Italy'`.
+> We assigned the varible `italy` equal to `None`, but you should change the word `None` to code that uses the `countries` list to assign `italy` to `'Italy'`.  We wrote the variable `italy` a second time, so that you can see what it contains when you run the code block.  Currently, nothing is displayed below as it equals `None`, but when it's correct it will match the string which is commented out, `'Italy'`.
 
 
 ```python
@@ -153,4 +153,4 @@ num_of_repeats # 3
 
 ## Summary
 
-In this lesson, we got some practice with working with lists in Python.  We saw how to add and remove elements from a list, as well as select specific elements.  Finally, we saw how to use a different data structure to calculate the number of unique elements in the list.
+In this lesson, we practiced working with lists in Python. We saw how to add and remove elements from a list, as well as select specific elements.  Finally, we saw how to use a different data structure to calculate the number of unique elements in the list.
