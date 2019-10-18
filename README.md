@@ -6,7 +6,9 @@ Now that we have a sense of how to read from a list and alter a list in Python, 
 
 ## Objectives
 You will be able to:
-* Understand and use Lists
+* Use indexing to access elements in a list
+* Apply list methods to make changes to a list
+* Change elements of a list
 
 ## Instructions
 
@@ -153,4 +155,4 @@ num_of_repeats # 3
 
 ## Summary
 
-In this lesson, we practiced working with lists in Python. We saw how to add and remove elements from a list, as well as select specific elements.  Finally, we saw how to use a different data structure to calculate the number of unique elements in the list.
+In this lesson, we practiced working with lists in Python. We saw how to index lists to select specific elements, how to use list methods to change lists, and how to add and remove elements from a list. Finally, we saw how to use a set to calculate the number of unique elements in the list.
