@@ -1,11 +1,13 @@
-
 # Working with Lists - Lab
 
 ## Introduction
+
 Now that we have a sense of how to read from a list and alter a list in Python, let's put this knowledge to use. 
 
 ## Objectives
+
 You will be able to:
+
 * Use indexing to access elements in a list
 * Apply list methods to make changes to a list
 * Change elements of a list
